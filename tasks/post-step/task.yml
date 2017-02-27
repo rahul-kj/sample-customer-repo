@@ -12,8 +12,8 @@ params:
   OPS_MGR_PWD:
 
 inputs:
-  - name: concourse-vsphere
+  - name: customer-repo
   - name: om-cli
 
 run:
-  path: concourse-vsphere/tasks/pre-step/task.sh
+  path: customer-repo/tasks/pre-step/task.sh
