@@ -31,7 +31,7 @@ METRICS_GUID=`./om-cli/om-linux -t https://$OPS_MGR_HOST -k -u $OPS_MGR_USR -p $
 echo "Use External NON SSL for Networking"
 CF_PROPERTIES=$(cat <<-EOF
 {
-  .properties.networking_point_of_entry: {
+  ".properties.networking_point_of_entry": {
     "value": "external_non_ssl"
   }
 }
