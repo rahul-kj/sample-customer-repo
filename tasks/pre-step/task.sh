@@ -32,7 +32,7 @@ echo "Use External NON SSL for Networking"
 CF_PROPERTIES=$(cat <<-EOF
 {
   .properties.networking_point_of_entry: {
-    value: "external_non_ssl"
+    "value": "external_non_ssl"
   }
 }
 EOF
