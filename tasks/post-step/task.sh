@@ -10,7 +10,7 @@ chmod +x om-cli/om-linux
 
 ERT_ERRANDS=$(cat <<-EOF
 {"errands": [
-  {"name": "nfsbrokerpush","post_deploy": false}
+  {"name": "nfsbrokerpush","post_deploy": "default"}
 ]}
 EOF
 )

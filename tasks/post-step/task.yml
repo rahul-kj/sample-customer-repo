@@ -16,4 +16,4 @@ inputs:
   - name: om-cli
 
 run:
-  path: customer-repo/tasks/pre-step/task.sh
+  path: customer-repo/tasks/post-step/task.sh
